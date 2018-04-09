@@ -31,7 +31,9 @@ female_1994 <- most_popular_in_year(1994)
 # Hint: get the popularity percentage, and take that percentage out of 1 million.
 
 number_in_million <- function(name_value, year_value) {
-  percentage <- names[names$year == year_value & names$name == name_value, "prop"]
+  percentage <- names[names$year == year_value & names$name == name_value, 
+                      "prop"]
+  
   round(percentage * 1000000, 1)
 }
 

@@ -42,7 +42,8 @@ USP_variable["Food and Tobacco", "X1960"]
 
 # What was the highest expenditure category in 1960?
 
-highest_1960 <- USP_variable$category[USP_variable$X1960 == max(USP_variable$X1960)]
+highest_1960 <- USP_variable$category[USP_variable$X1960 
+                                      == max(USP_variable$X1960)]
   
 # Define a function `lowest_category` that takes in a year as a parameter, and
 # returns the lowest spending category of that year

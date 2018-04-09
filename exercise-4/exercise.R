@@ -42,7 +42,8 @@ organization_large_grant <- organization[grants$total_amount == largest_grant]
 
 # Which organization received the smallest grant?
 
-organization_smallest_grant <- organization[grants$total_amount == smallest_grant]
+organization_smallest_grant <- organization[grants$total_amount == 
+                                              smallest_grant]
 
 # How many grants were awarded in 2010?
 
